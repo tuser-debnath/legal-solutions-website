@@ -7,11 +7,11 @@
     <title>Legal Solutions</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body class="max-w-6xl mx-auto pb-5">
-    <header class="py-5">
+  <body>
+    <header class="max-w-6xl mx-auto py-5">
       <nav class="lg:flex justify-between items-center">
         <h1 class="text-4xl font-extrabold text-gray-900">Justice</h1>
-        <ul class="flex gap-10">
+        <ul class="lg:flex gap-10">
           <li><a class="font-medium" href="">Home</a></li>
           <li><a class="font-medium" href="">Services</a></li>
           <li><a class="font-medium" href="">Cases</a></li>
@@ -25,69 +25,473 @@
         </button>
       </nav>
     </header>
-    <div class="bg-[url('../images/banner.png')] h-[550px] rounded-xl mt-7 flex justify-center items-center">
+    <div
+      class="bg-[url('../images/banner.png')] h-[550px] rounded-xl mt-7 flex justify-center items-center max-w-6xl mx-auto"
+    >
       <div class="banner-content text-center max-w-2xl mx-auto space-y-7">
-        <h2 class="text-7xl text-white">We Provide Effective Legal Solutions</h2>
+        <h2 class="text-7xl text-white">
+          We Provide Effective Legal Solutions
+        </h2>
         <p class="text-amber-50">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour.
         </p>
-        <input class="w-[480px] h-0 bg-white outline-none rounded-lg p-7 mr-3" type="text" name="" id="" placeholder="Search Your Services">
-                <button
-          class="btn-primary font-semibold px-6 py-4 bg-yellow-700 text-white rounded-lg"
+        <input
+          class="w-[480px] h-0 bg-white outline-none rounded-lg p-7 mr-3"
+          type="text"
+          name=""
+          id=""
+          placeholder="Search Your Services"
+        />
+        <button
+          class="btn-primary font-semibold px-6 py-4 bg-[#B68C5A] text-white rounded-lg"
         >
           Search
         </button>
       </div>
     </div>
-    <main>
-        <!-- Practice Area -->
-         <section class="mt-14">
-            <div class="section-header max-w-2xl mx-auto text-center mb-10">
-                <h2 class="text-4xl">The Legal Practice Area</h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+    <main class="max-w-6xl mx-auto">
+      <!-- Practice Area -->
+      <section class="mt-14">
+        <div class="section-header max-w-2xl mx-auto text-center mb-10">
+          <h2 class="text-4xl font-bold mb-2">The Legal Practice Area</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="practice-container grid lg:grid-cols-3 md:grid-cols-2">
+          <div
+            class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border-b border-gray-200"
+          >
+            <img src="images/business.png" alt="" />
+            <h3 class="text-3xl font-semibold">Business Law</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <img src="images/Frame.png" alt="" />
+          </div>
+          <div
+            class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border bd-[#E7E7E7] border-gray-200"
+          >
+            <img src="images/criminal.png" alt="" />
+            <h3 class="text-3xl font-semibold">Criminal Law</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <img src="images/Frame.png" alt="" />
+          </div>
+          <div
+            class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border-b border-gray-200"
+          >
+            <img src="images/child.png" alt="" />
+            <h3 class="text-3xl font-semibold">Child Support</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <img src="images/Frame.png" alt="" />
+          </div>
+          <div
+            class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6"
+          >
+            <img src="images/education.png" alt="" />
+            <h3 class="text-3xl font-semibold">Education Law</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <img src="images/Frame.png" alt="" />
+          </div>
+          <div
+            class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border-r border-l border-gray-200"
+          >
+            <img src="images/divorce.png" alt="" />
+            <h3 class="text-3xl font-semibold">Divorce Law</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <img src="images/Frame.png" alt="" />
+          </div>
+          <div
+            class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6"
+          >
+            <img src="images/tax.png" alt="" />
+            <h3 class="text-3xl font-semibold">Tax Law</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <img src="images/Frame.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="mt-14">
+        <div class="section-header max-w-2xl mx-auto text-center mb-10">
+          <h2 class="text-4xl font-bold mb-2">What Our Client Say</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div
+          class="bg-[url('../images/banner.png')] h-[500px] rounded-xl mt-7 flex items-center"
+        >
+          <div
+            class="testimonial-content text-white max-w-3xl mx-auto flex flex-col items-center space-y-5 text-center"
+          >
+            <img
+              class="w-20 h-20 rounded-full"
+              src="images/avatar.jpg"
+              alt=""
+            />
+            <h3 class="text-2xl">Tuser Debnath</h3>
+            <h4>UIX Designer</h4>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old. Richard McClintock, a Latin
+              professor at Hampden-Sydney College in Virginia, looked up one of
+              the more obscure Latin words, consectetur.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="mt-14">
+        <div class="section-header max-w-2xl mx-auto text-center mb-10">
+          <h2 class="text-4xl font-bold mb-2">
+            Frequently Asked Any Questions
+          </h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="lg:flex items-center gap-7">
+          <div class="accordion-area">
+            <!-- Accordion Item 1 -->
+            <div class="border-b border-slate-200">
+              <button
+                onclick="toggleAccordion(1)"
+                class="w-full flex justify-between items-center py-5 text-slate-800"
+              >
+                <span>What is Material Tailwind?</span>
+                <span
+                  id="icon-1"
+                  class="text-slate-800 transition-transform duration-300"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 16 16"
+                    fill="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <div
+                id="content-1"
+                class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+              >
+                <div class="pb-5 text-sm text-slate-500">
+                  Material Tailwind is a framework that enhances Tailwind CSS
+                  with additional styles and components.
+                </div>
+              </div>
             </div>
-            <div class="practice-container grid lg:grid-cols-3 md:grid-cols-2">
-                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border-b border-gray-200">
-                    <img src="images/business.png" alt="">
-                    <h3 class="text-3xl font-semibold">Business Law</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <img src="images/Frame.png" alt="">
+
+            <!-- Accordion Item 2 -->
+            <div class="border-b border-slate-200">
+              <button
+                onclick="toggleAccordion(2)"
+                class="w-full flex justify-between items-center py-5 text-slate-800"
+              >
+                <span>How to use Material Tailwind?</span>
+                <span
+                  id="icon-2"
+                  class="text-slate-800 transition-transform duration-300"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 16 16"
+                    fill="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <div
+                id="content-2"
+                class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+              >
+                <div class="pb-5 text-sm text-slate-500">
+                  You can use Material Tailwind by importing its components into
+                  your Tailwind CSS project.
                 </div>
-                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border bd-[#E7E7E7] border-gray-200" >
-                    <img src="images/criminal.png" alt="">
-                    <h3 class="text-3xl font-semibold">Criminal Law</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <img src="images/Frame.png" alt="">
-                </div>
-                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border-b border-gray-200">
-                    <img src="images/child.png" alt="">
-                    <h3 class="text-3xl font-semibold">Child Support</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <img src="images/Frame.png" alt="">
-                </div>
-                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6">
-                    <img src="images/education.png" alt="">
-                    <h3 class="text-3xl font-semibold">Education Law</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <img src="images/Frame.png" alt="">
-                </div>
-                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border-r border-l border-gray-200">
-                    <img src="images/divorce.png" alt="">
-                    <h3 class="text-3xl font-semibold">Divorce Law</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <img src="images/Frame.png" alt="">
-                </div>
-                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6">
-                    <img src="images/tax.png" alt="">
-                    <h3 class="text-3xl font-semibold">Tax Law</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <img src="images/Frame.png" alt="">
-                </div>
+              </div>
             </div>
-         </section>
+
+            <!-- Accordion Item 3 -->
+            <div class="border-b border-slate-200">
+              <button
+                onclick="toggleAccordion(3)"
+                class="w-full flex justify-between items-center py-5 text-slate-800"
+              >
+                <span>What can I do with Material Tailwind?</span>
+                <span
+                  id="icon-3"
+                  class="text-slate-800 transition-transform duration-300"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 16 16"
+                    fill="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <div
+                id="content-3"
+                class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+              >
+                <div class="pb-5 text-sm text-slate-500">
+                  Material Tailwind allows you to quickly build modern,
+                  responsive websites with a focus on design.
+                </div>
+              </div>
+            </div>
+            <!-- Accordion Item 3 -->
+            <div class="border-b border-slate-200">
+              <button
+                onclick="toggleAccordion(3)"
+                class="w-full flex justify-between items-center py-5 text-slate-800"
+              >
+                <span>What can I do with Material Tailwind?</span>
+                <span
+                  id="icon-3"
+                  class="text-slate-800 transition-transform duration-300"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 16 16"
+                    fill="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <div
+                id="content-3"
+                class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+              >
+                <div class="pb-5 text-sm text-slate-500">
+                  Material Tailwind allows you to quickly build modern,
+                  responsive websites with a focus on design.
+                </div>
+              </div>
+            </div>
+
+            <script>
+              function toggleAccordion(index) {
+                const content = document.getElementById(`content-${index}`);
+                const icon = document.getElementById(`icon-${index}`);
+
+                // SVG for Minus icon
+                const minusSVG = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+        <path d="M3.75 7.25a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Z" />
+      </svg>
+    `;
+
+                // SVG for Plus icon
+                const plusSVG = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+        <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+      </svg>
+    `;
+
+                // Toggle the content's max-height for smooth opening and closing
+                if (
+                  content.style.maxHeight &&
+                  content.style.maxHeight !== "0px"
+                ) {
+                  content.style.maxHeight = "0";
+                  icon.innerHTML = plusSVG;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                  icon.innerHTML = minusSVG;
+                }
+              }
+            </script>
+          </div>
+          <div class="accordion-img">
+            <img src="images/faq.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="mt-14 mb-20">
+        <div class="section-header max-w-2xl mx-auto text-center mb-10">
+          <h2 class="text-4xl font-bold mb-2">Contact With Us</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="lg:grid grid-cols-2 gap-8">
+          <div class="grid grid-cols-2">
+            <div
+              class="single-contact py-10 px-12 text-center flex flex-col items-center space-y-6 bg-[#F3F3F3] border-gray-200 border-r border-b"
+            >
+              <img src="images/location.png" alt="" />
+              <h4 class="text-2xl font-medium">Address</h4>
+              <p class="text-shadow-stone-800">
+                A108 Adam Street, <br />
+                New York, NY 535022
+              </p>
+            </div>
+            <div
+              class="single-contact py-10 px-12 text-center flex flex-col items-center space-y-6 bg-[#F3F3F3] border-gray-200 border-b"
+            >
+              <img src="images/call.png" alt="" />
+              <h4 class="text-2xl font-medium">Call Us</h4>
+              <p class="text-shadow-stone-800">
+                +88 01750 00 00 00 <br />
+                +88 01750 00 00 00
+              </p>
+            </div>
+            <div
+              class="single-contact py-10 px-12 text-center flex flex-col items-center space-y-6 bg-[#F3F3F3] border-gray-200 border-r"
+            >
+              <img src="images/email.png" alt="" />
+              <h4 class="text-2xl font-medium">Email Us</h4>
+              <p class="text-shadow-stone-800">
+                info@gmail.com <br />
+                info@gmail.com
+              </p>
+            </div>
+            <div
+              class="single-contact py-10 px-12 text-center flex flex-col items-center space-y-6 bg-[#F3F3F3] border-gray-200"
+            >
+              <img src="images/time.png" alt="" />
+              <h4 class="text-2xl font-medium">Working Hours</h4>
+              <p class="text-shadow-stone-800">
+                Mon-Fri: 9AM to 5PM <br />
+                Sunday: 9AM to 1 PM
+              </p>
+            </div>
+          </div>
+          <div>
+            <form action="">
+              <input
+                class="h-0 bg-[#F3F3F3] outline-none rounded-lg p-7 mb-6 w-full"
+                type="text"
+                name=""
+                id=""
+                placeholder="Your Name"
+              />
+              <input
+                class="h-0 bg-[#F3F3F3] outline-none rounded-lg p-7 mb-6 w-full"
+                type="email"
+                name=""
+                id=""
+                placeholder="Your Email"
+                type="email"
+              />
+              <input
+                class="h-0 bg-[#F3F3F3] outline-none rounded-lg p-7 mb-6 w-full"
+                type="text"
+                name=""
+                id=""
+                placeholder=" Subject"
+                type="text"
+              />
+              <textarea
+                class="bg-[#F3F3F3] outline-none rounded-lg p-7 mb-6 w-full"
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+              ></textarea>
+              <button
+                class="btn-primary font-semibold px-6 py-4 bg-[#B68C5A] text-white rounded-lg w-full"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="bg-black py-12 text-white">
+      <div class="max-w-6xl mx-auto lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 gap-7">
+        <div>
+          <img src="images/logo.png" alt="" />
+          <p class="mt-5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="space-y-5">
+          <h3 class="text-2xl">Usefull Link</h3>
+          <ul class="space-y-3">
+            <li><a href="">Homes</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Cases</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="space-y-5">
+          <h3 class="text-2xl">Contact Now</h3>
+          <p>555 4th 5t NW, Washington <br> DC 20530, United States</p>
+          <p>+88 01750 000 000 <br> +88 01750 000 000</p>
+          <p>info@gmail.com <br> info@gmail.com</p>
+        </div>
+        <div class="space-y-5 relative">
+          <h3 class="text-2xl">Subscribe</h3>
+          <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+          <input
+                class="h-0 bg-[#F3F3F3] outline-none rounded-lg p-7 mb-6 w-full"
+                type="text"
+                name=""
+                id=""
+                placeholder="Your Name"
+              />
+              <button
+                class="btn-primary font-semibold px-6 py-4 bg-[#B68C5A] text-white rounded-lg absolute right-0 bottom-15"
+              >
+                Send
+              </button>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
