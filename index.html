@@ -1,13 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Legal Solutions</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <h1>Legal Solutions</h1>
-</body>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="max-w-6xl mx-auto pb-5">
+    <header class="py-5">
+      <nav class="lg:flex justify-between items-center">
+        <h1 class="text-4xl font-extrabold text-gray-900">Justice</h1>
+        <ul class="flex gap-10">
+          <li><a class="font-medium" href="">Home</a></li>
+          <li><a class="font-medium" href="">Services</a></li>
+          <li><a class="font-medium" href="">Cases</a></li>
+          <li><a class="font-medium" href="">Blog</a></li>
+          <li><a class="font-medium" href="">Contact Us</a></li>
+        </ul>
+        <button
+          class="btn-primary font-semibold px-6 py-4 bg-yellow-700 text-white rounded-lg"
+        >
+          Free Consultation
+        </button>
+      </nav>
+    </header>
+    <div class="bg-[url('../images/banner.png')] h-[550px] rounded-xl mt-7 flex justify-center items-center">
+      <div class="banner-content text-center max-w-2xl mx-auto space-y-7">
+        <h2 class="text-7xl text-white">We Provide Effective Legal Solutions</h2>
+        <p class="text-amber-50">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
+        </p>
+        <input class="w-[480px] h-0 bg-white outline-none rounded-lg p-7 mr-3" type="text" name="" id="" placeholder="Search Your Services">
+                <button
+          class="btn-primary font-semibold px-6 py-4 bg-yellow-700 text-white rounded-lg"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+    <main>
+        <!-- Practice Area -->
+         <section class="mt-14">
+            <div class="section-header max-w-2xl mx-auto text-center mb-10">
+                <h2 class="text-4xl">The Legal Practice Area</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="practice-container grid lg:grid-cols-3 md:grid-cols-2">
+                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border-b border-gray-200">
+                    <img src="images/business.png" alt="">
+                    <h3 class="text-3xl font-semibold">Business Law</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/Frame.png" alt="">
+                </div>
+                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border bd-[#E7E7E7] border-gray-200" >
+                    <img src="images/criminal.png" alt="">
+                    <h3 class="text-3xl font-semibold">Criminal Law</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/Frame.png" alt="">
+                </div>
+                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border-b border-gray-200">
+                    <img src="images/child.png" alt="">
+                    <h3 class="text-3xl font-semibold">Child Support</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/Frame.png" alt="">
+                </div>
+                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6">
+                    <img src="images/education.png" alt="">
+                    <h3 class="text-3xl font-semibold">Education Law</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/Frame.png" alt="">
+                </div>
+                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6 border-r border-l border-gray-200">
+                    <img src="images/divorce.png" alt="">
+                    <h3 class="text-3xl font-semibold">Divorce Law</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/Frame.png" alt="">
+                </div>
+                <div class="single-practice px-12 py-15 text-center flex flex-col items-center space-y-6">
+                    <img src="images/tax.png" alt="">
+                    <h3 class="text-3xl font-semibold">Tax Law</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/Frame.png" alt="">
+                </div>
+            </div>
+         </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
